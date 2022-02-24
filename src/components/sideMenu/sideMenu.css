@@ -1,0 +1,36 @@
+.sideMenu {
+  position: sticky;
+  width: 70px;
+  height: 100vh;
+  background-color: #1f1f1f;
+  z-index: 999;
+}
+.sideMenuWrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidemenuImg {
+  padding: 10px;
+  margin-top: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.sideMenuInit {
+  color: #fff;
+}
+.sideMenuItem {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.sideMenuSettings {
+  padding-bottom: 25px;
+  color: #fff;
+  cursor: pointer;
+}

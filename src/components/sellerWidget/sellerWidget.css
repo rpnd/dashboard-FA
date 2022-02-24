@@ -1,0 +1,45 @@
+.sellerWidget {
+  margin: 30px 50px;
+  border-radius: 10px;
+}
+.sellerWidgetTitle {
+  color: rgb(170, 170, 170);
+}
+.sellerWidgetWrapper {
+  margin-top: 10px;
+}
+.sellerWidgetItem {
+  height: 50px;
+  background: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 5px 5px 20px -7px rgba(31, 31, 31, 0.75);
+  box-shadow: 5px 5px 20px -7px rgba(37, 37, 37, 0.75);
+  cursor: pointer;
+}
+.sellerWidgetItemSec {
+  margin-left: 20px;
+  align-items: center;
+  display: flex;
+}
+.sellerWidgetItemImg {
+  width: 38px;
+  height: 38px;
+  border-radius: 14px;
+  margin-right: 10px;
+}
+.sellerWidetItemName {
+  font-size: 14px;
+}
+.sellerWidgetItemRate {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #33ff00;
+}
+.sellerWidgetItem.active {
+  background: rgb(42, 42, 42);
+  color: #dfe2d9;
+}
